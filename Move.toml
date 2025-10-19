@@ -1,10 +1,11 @@
 [package]
 name = "recipes_list"
 version = "0.1.1"
+authors = ["Tiago Leite Santos <tiago.ti.programador@gmail.com>, Jeazi Ricardo <jeazi_ricardo@hotmail.com>"]
 edition = "2024"
 
 [addresses]
-recipes_list = "0x0"
+recipes_list = "0x23316e3479693bf19f86a4d5efcc24e5b00efbc5235ed6dd1b13d91080f06209"
 
 [dependencies]
 
