@@ -20,3 +20,12 @@ public fun create_list(ctx: &mut TxContext) {
     };
     transfer::transfer(list, tx_context::sender(ctx));
 }
+
+public fun add_recipe(list: &mut RecipeList, name: String, description: String, image_ref: String) {
+    let recipe = Recipe {
+        name,
+        description,
+        image_ref,
+    };
+    list.recipes.push_back(recipe);
+}
