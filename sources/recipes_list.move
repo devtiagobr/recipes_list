@@ -12,3 +12,11 @@ public struct RecipeList has key, store {
     id: UID,
     recipes: vector<Recipe>,
 }
+
+public fun create_list(ctx: &mut TxContext) {
+    let list = RecipeList {
+        id: object::new(ctx),
+        recipes: vector[],
+    };
+    transfer::transfer(list, tx_context::sender(ctx));
+}
