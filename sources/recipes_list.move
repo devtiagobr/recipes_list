@@ -29,3 +29,7 @@ public fun add_recipe(list: &mut RecipeList, name: String, description: String, 
     };
     list.recipes.push_back(recipe);
 }
+
+public fun remove_recipe(list: &mut RecipeList, index: u64) {
+    list.recipes.remove(index);
+}
