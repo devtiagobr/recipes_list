@@ -1,0 +1,10 @@
+[package]
+name = "recipes_list"
+version = "0.1.1"
+edition = "2024"
+
+[addresses]
+recipes_list = "0x0"
+
+[dependencies]
+
