@@ -38,7 +38,7 @@ recipes_list/
 3. **Compile o projeto:**
 
   ```bash
-    move build
+sui move build
   ```
 
 ## ✍ Utilizando
