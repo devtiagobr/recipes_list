@@ -13,7 +13,7 @@ Este é um projeto, desenvolvido durante o bootcamp **Brasil l Sui Move Bootcamp
 ```bash
 recipes_list/
 ├── sources/
-│   └── img/                  # Imagens das receitas
+│   └── img/                 # Imagens das receitas
 │       └── image.png
 ├── sources/                 # Código fonte em Move
 │   └── recipes_list.move    # Módulo principal com lógica de receitas
@@ -71,10 +71,7 @@ sui client call --package <PACKAGE_ID> --module recipes_list --function remove_r
 
 ## 🖼️ Armazenamento de Imagens com Waruls
 
-Utilizamos nesse projeto o serviço [Walrus](https://www.walrus.xyz) para armazenar as imagens das receitas. As imagens disponíveis na pasta `assets/img/` foram armazenadas no Waruls, e seus respectivos `Blob IDs` são:
-
-- Receita 1: `0001`
-- Receita 2: `0002`
+Utilizamos nesse projeto o serviço [Walrus](https://www.walrus.xyz) para armazenar as imagens das receitas. As imagens disponíveis na pasta `assets/img/` foram armazenadas no Walrus, mas é possível utilizar o link de uma imagem armazenada em outro local.
 
 ## 📄 Licença
 
